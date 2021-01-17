@@ -61,3 +61,18 @@ _detect_ and _release_ are more or less dummies.
 _compile_ does install elm and builds the application using `elm-app build`.
 
 __static.json__ is used for the static buildpack to provide the application after building.
+
+## Kudos
+
+Thanks [halfzebra](https://github.com/halfzebra/create-elm-app) for [create-elm-app](https://github.com/halfzebra/create-elm-app)!
+
+A different approach for deployment using Heroku via local build of the app is done by [MainShayne233](https://mainshayne233.github.io/2019-11-23-deploy-create-elm-app-to-heroku/).
+
+Boilerplates for the use of the inline buildpack are taken from [JetThoughts](https://jtway.co/deploying-subdirectory-projects-to-heroku-f31ed65f3f2).
+
+The compile-part is mostly adapted from [srid's elm buildpack](https://github.com/srid/heroku-buildpack-elm).
+
+## Todos
+
+- [ ] Add caching (binary, elm-stuff, ...)
+- [ ] Add support for different elm versions (mind differet release formats!)
