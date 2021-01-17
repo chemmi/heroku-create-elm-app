@@ -1,0 +1,16 @@
+{
+    "name": "Heroku create-elm-app Example",
+    "description": "Example to deploy a create-elm-app with Heroku",
+    "repository": "https://github.com/chemmi/heroku-create-elm-app",
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        },
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-inline.git"
+        },
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-static.git"
+        }
+    ]
+}
